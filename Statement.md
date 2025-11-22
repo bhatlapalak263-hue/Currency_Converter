@@ -19,7 +19,7 @@ The scope includes:
 * General Users: The people who need fast and easy utility for everyday currency conversion, without additional browser overhead.
   
 ## 📌High-Level Features 
-** Live Rate Extraction: Automated fetching of the latest exchange rates for more than 150 global currencies.
-** Smart Input Validation: A robust error-handling system that refuses to take non-numeric or invalid inputs, thus preventing crashes.
-** Offline Fallback Mode: A failsafe mode that resorts to cached/default rates so that the system remains usable during periods of network failure.
-** Modern GUI: A clean, user-friendly interface using Tkinter where inputs, controls, and results are separated.
+* Live Rate Extraction: Automated fetching of the latest exchange rates for more than 150 global currencies.
+* Smart Input Validation: A robust error-handling system that refuses to take non-numeric or invalid inputs, thus preventing crashes.
+* Offline Fallback Mode: A failsafe mode that resorts to cached/default rates so that the system remains usable during periods of network failure.
+* Modern GUI: A clean, user-friendly interface using Tkinter where inputs, controls, and results are separated.
