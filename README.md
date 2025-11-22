@@ -1,20 +1,20 @@
 # Currency_Converter-Introduction to Programming Project
 
-##Overview
+## Overview
 This is a Python-based desktop application for currency conversion with GUI, designed to make life easier by avoiding the hassle of navigating through complex financial websites. The tool uses the ExchangeRate-API to provide real-time data and has a resilient architecture that embeds tkinter in the frontend, while the requests library is used for backend operations, ensuring functionality even without an internet connection through an intelligent offline caching system.
 
-##Features
+## Features
 ** Real-time data fetching:** Fetches real-time exchange rates for USD, INR, EUR, etc., using a live REST API.
 **Resilient Offline Mode:** Automatically switches to a fallback local dataset if network error conditions are detected.
 **Input Validation:** Provides error handling for non-numeric inputs that prevents application crashes.
 **User-Friendly GUI:** Clean interface with drop-down menus for selecting currencies and clear results display.
-** Cross-Platform Compatibility:** Because it's Python-based, this application will run on any system that has a working Python environment in place, be it Windows, macOS, or Linux.
+**Cross-Platform Compatibility:** Because it's Python-based, this application will run on any system that has a working Python environment in place, be it Windows, macOS, or Linux.
 ## Technologies/Tools Used
-**Programming Language:* Python 3.7
-**GUI Framework:* Tkinter
-**HTTP Library:* Requests (for API calls)
-**Data Format:* JSON
-**API Service:* ExchangeRate-API
+**Programming Language: ** Python 3.7
+**GUI Framework: ** Tkinter
+**HTTP Library: ** Requests (for API calls)
+**Data Format: ** JSON
+**API Service: ** ExchangeRate-API
 ##Steps to install and run the program
 ## Steps to Install & Run the Project
 
@@ -32,7 +32,7 @@ bash
 Go to your project directory and run the script:
  bash
       python Currency_Converter.py
-##Instructions for testing
+## Instructions for testing
 Conduct the following tests to ensure that the application works as anticipated.
 
 1.  *Standard Conversion Test:
@@ -50,8 +50,8 @@ Select "INR" as the From currency and "USD" as the To currency.
 * Expected Output: A warning pop-up showing "Please enter a valid numeric amount" or "Please enter an amount."
 3.  Offline/Network Error Test:
 * Disconnect your computer from the internet. * Restart the application. * Expected Output: The app should print a "Network Error" error message but still open. * Try converting USD to EUR or to INR. It should work using the hardcoded fallback rates.
-##Project structure
-#currency converter
+## Project structure
+# currency converter
  ├── currency_converter.py
  ├── README.md
  ├── Report.pdf
