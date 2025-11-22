@@ -4,18 +4,18 @@
 This is a Python-based desktop application for currency conversion with GUI, designed to make life easier by avoiding the hassle of navigating through complex financial websites. The tool uses the ExchangeRate-API to provide real-time data and has a resilient architecture that embeds tkinter in the frontend, while the requests library is used for backend operations, ensuring functionality even without an internet connection through an intelligent offline caching system.
 
 ## 📌Features
-. * Real-time data fetching:* Fetches real-time exchange rates for USD, INR, EUR, etc., using a live REST API.
-. *Resilient Offline Mode:* Automatically switches to a fallback local dataset if network error conditions are detected.
-. *Input Validation:*  Provides error handling for non-numeric inputs that prevents application crashes.
-. *User-Friendly GUI:* Clean interface with drop-down menus for selecting currencies and clear results display.
-. *Cross-Platform Compatibility:* Because it's Python-based, this application will run on any system that has a working Python environment in place, be it Windows, macOS, or Linux.
+ * Real-time data fetching:* Fetches real-time exchange rates for USD, INR, EUR, etc., using a live REST API.
+ * Resilient Offline Mode:* Automatically switches to a fallback local dataset if network error conditions are detected.
+ * Input Validation:*  Provides error handling for non-numeric inputs that prevents application crashes.
+ * User-Friendly GUI:* Clean interface with drop-down menus for selecting currencies and clear results display.
+ * Cross-Platform Compatibility:* Because it's Python-based, this application will run on any system that has a working Python environment in place, be it Windows, macOS, or Linux.
 
 ## 📌Technologies/Tools Used
-. *Programming Language: * Python 3.7
-. *GUI Framework: * Tkinter
-. *HTTP Library: * Requests (for API calls)
-. *Data Format: * JSON
-. *API Service: * ExchangeRate-API
+ * Programming Language: * Python 3.7
+ * GUI Framework: * Tkinter
+ * HTTP Library: * Requests (for API calls)
+ * Data Format: * JSON
+ * API Service: * ExchangeRate-API
 
 ## 📌Steps to Install & Run the Project
 
